@@ -135,7 +135,7 @@ final class RockPaperScissors {
 
         } catch (IOException exception) {
             // Outputs error message
-            System.out.println("Please enter a correct input.\n");
+            System.out.println("Please enter a correct input.");
         }
 
         System.out.println("\nDone.");
