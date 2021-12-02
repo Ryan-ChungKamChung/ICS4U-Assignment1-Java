@@ -1,9 +1,9 @@
 /*
- * This program generates a random number and asks the user to guess it.
+ * This program allows the user to play rock paper scissors with the computer.
  *
  * @author  Ryan Chung
  * @version 1.0
- * @since   2021-11-23
+ * @since   2021-12-02
  */
 
 import java.io.BufferedReader;
@@ -28,7 +28,7 @@ final class RockPaperScissors {
     }
 
     /**
-    * Generates a random number.
+    * Generates the random bot choice.
     *
     * @return This function returns the random choice of the computer.
     *
@@ -94,8 +94,8 @@ final class RockPaperScissors {
     }
 
     /**
-     * Calculates and outputs the energy generated from a certain amount of
-     * mass.
+     * Grabs user input, validates it, checks and displays who won between a random bot
+     * choice and the user.
      *
      * @param args No args will be used.
      * @throws IOException if there is anything wrong with the user input.
