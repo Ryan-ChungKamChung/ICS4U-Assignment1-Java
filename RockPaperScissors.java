@@ -94,8 +94,8 @@ final class RockPaperScissors {
     }
 
     /**
-     * Grabs user input, validates it, checks and displays who won between a random bot
-     * choice and the user.
+     * Grabs user input, validates it, checks and displays who won
+     * between a random bot choice and the user.
      *
      * @param args No args will be used.
      * @throws IOException if there is anything wrong with the user input.
