@@ -42,7 +42,7 @@ final class RockPaperScissors {
         final int lowerNum = 0;
         final int higherNum = 2;
 
-        final int randomInt = new Random().nextInt(higherNum) + lowerNum;
+        final int randomInt = new Random().nextInt(higherNum);
         String botChoice = "";
 
         switch (randomInt) {
